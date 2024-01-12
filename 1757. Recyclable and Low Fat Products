@@ -33,6 +33,7 @@ Output:
 +-------------+
 Explanation: Only products 1 and 3 are both low fat and recyclable.
 
-Solution :
-
-https://leetcode.com/problems/recyclable-and-low-fat-products/description/
+Solution : https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/1143896200/
+Select product_id
+from Products 
+where low_fats='Y' and recyclable ='Y'
